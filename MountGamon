@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 getgenv().Checkpoints = {
     {Name="Summit", Pos=Vector3.new(1734.01, 1068.13, 1239.19)},
     {Name="Spawn", Pos=Vector3.new(-726.58, 17.00, 215.84)},
-    {Name="Checkpoint 1", Pos=Vector3.new(319.63, 61.17, 676.43)},
+    {Name="Checkpoint 1", Pos=Vector3.new(-621, 17, 208)},
 }
 getgenv().CurrentCheckpoint = 1
 getgenv().AutoSummitLoop = false
