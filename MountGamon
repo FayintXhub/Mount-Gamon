@@ -303,7 +303,7 @@ local function AutoSummitHandler()
                 getgenv().CurrentCheckpoint += 1
             end
 
-            task.wait(0.1) -- loop ultra cepat
+            task.wait(0.01) -- loop ultra cepat
         end
 
         getgenv().AutoSummitRunning = false
